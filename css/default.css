@@ -54,3 +54,21 @@ dt{
 .btn-reset{
   background-color: lightcoral;
 }
+caption{
+  padding: 5px;
+}
+
+#price{
+  background-color: lightyellow;
+}
+
+thead td{
+  color: white;
+  background-color: lightblue;
+  text-align: center;
+}
+
+tfoot td{
+  foot-weight: bold;
+  background-color: white;
+}
