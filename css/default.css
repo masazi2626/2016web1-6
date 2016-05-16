@@ -19,6 +19,7 @@ body{
 }
 .explanation{
   float: left;
+  width: 468px;
 }
 
 dt{
