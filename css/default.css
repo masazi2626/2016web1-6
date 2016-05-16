@@ -17,3 +17,12 @@ body{
   clear: both;
   display: block;
 }
+.explanation{
+  float: left;
+}
+
+dt{
+  clear: left;
+  float: left;
+  font-weight: bold;
+}
