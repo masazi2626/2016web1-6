@@ -7,7 +7,7 @@
     </head>
     <body>
         <article id="main">
-            <p><h1>男</h1>の料理</p>
+            <p>男の料理</p>
             <section class="butakimu_picture">
                 <img src="IMG_0181.JPG" alt="豚キムチ" width=300 class="photo">
                 <dl class="explanation">
@@ -18,5 +18,23 @@
             <input type="submit" value="OK" class="btn btn-submit">
             <input type="reset" value="リセット" class="btn btn-reset">
         </article>
+        <table id="ingredient">
+            <caption>豚キムチの材料</caption>
+            <colgroup id="name">
+            <colgroup id="amount">
+            <colgroup id="price">
+            <thead>
+                <tr><th></th><td>分量</td><td>値段</td></tr>
+            </thead>
+            <tbody>
+                <tr><th>もやし</th><td>4袋</td><td rowspan="2">1050円</td></tr>
+                <tr><th>豚肉</th><td>3パック</td></tr>
+                <tr><th>キムチ</th><td>1パック</td><td>300円</td></tr>
+                <tr><th>味噌</th><td>200g</td><td>400円</td></tr>
+            </tbody>
+            <tfoot>
+                <tr><th>合計</th><td colspan="2">1750円</td></tr>
+            </tfoot>
+        </table>
     </body>
 </html>
