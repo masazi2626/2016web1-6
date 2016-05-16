@@ -12,7 +12,7 @@ body{
   float: left;
   margin-right: 30px;
 }
-.butakumu_picture:after{
+.butakimu_picture:after{
   content: "";
   clear: both;
   display: block;
